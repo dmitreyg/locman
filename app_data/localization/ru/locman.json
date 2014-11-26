@@ -1,0 +1,26 @@
+[
+	{
+		"name": "hello",
+		"value": "привет !!!!"
+	},
+	{
+		"name": "test1",
+		"value": "тест"
+	},
+	{
+		"name": "test2",
+		"value": ""
+	},
+	{
+		"name": "Add Folder",
+		"value": "Добавить папку"
+	},
+	{
+		"name": "Name",
+		"value": "Имя"
+	},
+	{
+		"name": "Description",
+		"value": "Описание"
+	}
+]

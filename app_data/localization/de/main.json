@@ -1,0 +1,10 @@
+[
+	{
+		"name": "Hello world",
+		"value": "Hallo, Welt!"
+	},
+	{
+		"name": "Bye",
+		"value": "Bye!"
+	}
+]

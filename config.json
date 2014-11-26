@@ -1,0 +1,30 @@
+﻿{
+    "ServerConfig": {
+        "port": 3001,
+        "logger": "dev",
+        "enableUpload": true,
+        "enableCompression": true,
+        "webRoot": "/public",
+        "enableSessions": true,
+        "sessionSecret": "vdW3F6y3506h",
+        "enableCORS": true,
+        "allowedMethods": "GET,POST,OPTIONS",
+        "localizationFolder": "app_data/localization",
+        "appDataFolder": "app_data",
+        "translationUrl": "",
+        "translateApiKey": "AIzaSyABz0KteTtfFtHfp0dd8ipxXtgFETrYIK0",
+        "translateApiUrl": "https://www.googleapis.com/language/translate/v2",
+        "administrator": "admin"
+    },
+
+    "ExtDirectConfig": {
+        "namespace": "ExtRemote",
+        "apiName": "REMOTING_API",
+        "apiPath": "/directapi",
+        "classPath": "/direct",
+        "classPrefix": "Locman",
+        "server": "localhost",
+        "port": "3001",
+        "protocol": "http"
+    }
+}
