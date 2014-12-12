@@ -12,7 +12,7 @@
         "localizationFolder": "app_data/localization",
         "appDataFolder": "app_data",
         "translationUrl": "",
-        "translateApiKey": "AIzaSyABz0KteTtfFtHfp0dd8ipxXtgFETrYIK0000",
+        "translateApiKey": "",
         "translateApiUrl": "https://www.googleapis.com/language/translate/v2",
         "administrator": "admin"
     },
