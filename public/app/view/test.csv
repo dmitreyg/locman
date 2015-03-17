@@ -1,0 +1,108 @@
+
+
+update SurveyArtifact set comment = 'Refer to the security documentation from HP' where id = 'f14414ed-bf93-4a91-acc6-144805f9309f'
+
+
+
+update SurveyArtifact set comment = 'The type of data stored in the ALM application is pre-production test data. There is no PII or PCI data saved' where id = '3f4eeb9c-95a9-43ca-b16d-1fabbb54c05b'
+
+
+
+
+update SurveyArtifact set comment = 'On need basis. If project requires HP engineers to look into issue reported by customer. THe access is revoked after issue gets fixed.' where id = '9963c085-a07e-40f8-a0ac-d976973fc34b'
+
+
+
+
+update SurveyArtifact set comment = 'HP confidential' where id = 'a629e193-1331-49c6-bb79-a3cf091e8e61'
+
+
+
+
+update SurveyArtifact set comment = 'Only alerts and notifications are sent via email' where id = 'c121ddb6-1465-4eca-8da3-3362337cd3a5'
+
+
+
+update SurveyArtifact set comment = 'HP ALM/QC allows REST APIs and OTA (Open Test Architecture) to communicate if integrations are done with other tools such as JIRA.  OTA is via HTTPS and REST is via HTTP ( but only with Site to Site VPN)' where id = 'a0629c3e-33d3-46f4-9f11-7139a4dda7e5'
+
+
+
+update SurveyArtifact set comment = 'HP ALM/QC allows REST APIs and OTA (Open Test Architecture) to communicate if integrations are done with other tools such as JIRA.  OTA is via HTTPS and REST is via HTTP ( but only with Site to Site VPN)' where id = '8434beca-c43f-4c6c-ba9d-8e7b7e252adb'
+
+
+
+
+update SurveyArtifact set comment = 'HP Owns/operate its primary datacenter location. ' where id = '1045ab6c-5b3e-45aa-b383-1bfdc5128e0b'
+
+
+
+
+update SurveyArtifact set comment = 'HPâ€™s property insurance program includes business interruption.' + CHAR(13)+CHAR(10) + 'Coverage is limited as per terms and conditions and exclusions of the policy.  ' + CHAR(13)+CHAR(10) + 'In addition, there are deductibles and waiting periods that apply.' + CHAR(13)+CHAR(10) + 'Coverage for products and services provided to clients falls under HPâ€™s liability insurance coverage and not HPâ€™s property insurance coverage.' + CHAR(13)+CHAR(10) + '' where id = 'da71f75e-cb4e-4459-9bfb-3707d9890042'
+
+
+
+update SurveyArtifact set comment = 'HPâ€™s property insurance program includes business interruption.' + CHAR(13)+CHAR(10) + 'Coverage is limited as per terms and conditions and exclusions of the policy.  ' + CHAR(13)+CHAR(10) + 'In addition, there are deductibles and waiting periods that apply.' + CHAR(13)+CHAR(10) + 'Coverage for products and services provided to clients falls under HPâ€™s liability insurance coverage and not HPâ€™s property insurance coverage.' + CHAR(13)+CHAR(10) + '' where id = '49041cee-541b-4234-b29a-ca4c7552d274'
+
+
+
+
+update SurveyArtifact set comment = 'All Americas customers are hosted in US datacenter. HP has datacenters in other countries as well. ' where id = 'd69597d0-8f74-4111-8eed-f85d88cf9a7f'
+
+
+
+update SurveyArtifact set comment = 'Database Instance is shared. But each customer has its own schema and no customer has direct access to Database. The application (ALM/QC) has inbuilt controls for data segregation' where id = '467c67f7-57a5-4fac-8a72-220c6d8d14fa'
+
+
+
+update SurveyArtifact set comment = 'Each customer has its own schema and no customer has direct access to Database. The application (ALM/QC) has inbuilt controls for data segregation. Every project have its own schema and access is restricted to which a user belongs.' where id = 'c308a735-6cea-4486-bc79-51f3fbe29405'
+
+
+
+update SurveyArtifact set comment = 'Data is encrypted during transmission.' where id = 'f37c5f09-85ae-4806-afea-e4ddc128dd96'
+
+
+
+update SurveyArtifact set comment = 'Currently Federation is not supported. On roadmap and will be avaliable later this year.' where id = '157806a4-b829-46e2-9a99-759f91ef0ca9'
+
+
+
+update SurveyArtifact set comment = '4 Hours maintenance window is reserved between 12 AM to 4 AM US Pacific time on every 3rd Sunday of the month' where id = '41f20566-fca6-48c8-ae4c-7057d0608514'
+
+
+
+update SurveyArtifact set comment = 'Automatic penetration tests are performed' where id = 'd4c1c683-8a6e-4a4f-9e20-4dc58afc08dd'
+
+
+
+update SurveyArtifact set comment = 'Customer project / Data is not accessed unless a technical issue with product requires. For example, in QC if there is any issue with workflow, access will be granted to HP Engineer who can then look into project and troubleshoot issue. Once issue is resolved, the access is revoked.' where id = '65c701b8-bc5e-4cc7-8e33-ea6f06f78ebc'
+
+
+
+update SurveyArtifact set comment = 'Customer is responsible for user desktops/laptops that access ALM/QC envrionment via Browser or UFT application.' + CHAR(13)+CHAR(10) + '' where id = '4b926e6a-ef90-437c-9e21-05ea6d747ca0'
+
+
+
+update SurveyArtifact set comment = 'Customer can customize the password security policy for end users.' where id = '16d87638-dd17-48c2-9e7a-6f520da34d4f'
+
+
+
+update SurveyArtifact set comment = 'We allow Site to Site VPN if required by integrations.' where id = '57abce9d-4c4e-4809-b67f-4cdce96f49a5'
+
+
+
+update SurveyArtifact set comment = 'Best effort' where id = '6ce72ff9-fe63-4bac-9ed6-668716e80475'
+
+
+
+update SurveyArtifact set comment = '12 hours' where id = '75c09ff5-eee8-4f1e-bcc0-26b31c6c4d43'
+
+
+
+update SurveyArtifact set comment = 'All tiers are N+1 redundant ( Firewall, Load Balancer, Web & App servers, DB and storage)' where id = '9c202147-9811-4782-903b-16c467da73e2'
+
+
+
+
+update SurveyArtifact set comment = 'HP ALM/Quality Center backend runs on HP SaaS. Sealed Air will access it via browser. ' where id = 'afc45fce-0b65-4d7a-b7e9-9a9affb8df62'
+
+

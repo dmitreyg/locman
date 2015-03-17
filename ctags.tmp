@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_MOD_BY	Bostjan Mihoric	/ccompletion@gmail.com/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	/unofficial modification/
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	/unofficial modification/
+ServerConfig	app.js	15;"	variable
+app	app.js	19;"	variable
+express	app.js	6;"	variable
+http	app.js	9;"	variable
+nconf	app.js	11;"	variable
+path	app.js	10;"	variable
+routes	app.js	7;"	variable
+store	app.js	20;"	variable
+user	app.js	8;"	variable

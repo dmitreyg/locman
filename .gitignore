@@ -73,3 +73,13 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+/public/build/temp
+/.idea
+/app_data/localization/_trash
+/app_data/localization/de
+/app_data/localization/ja-JP
+/app_data/localization/es
+/app_data/localization/ru
+/app_data/localization/ua
+/public/.sencha/app
+/public/.sencha/workspace
